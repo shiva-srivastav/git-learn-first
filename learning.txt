@@ -1,0 +1,11 @@
+git config --global user.name "shiva srivastava"
+git config --global user.email "hackingshiva13@gmail.com"
+git --version
+
+ssh-keygen -t ed25519 -C "mail@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+
+single time
+git init
+git status
