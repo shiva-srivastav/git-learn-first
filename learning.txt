@@ -11,3 +11,13 @@ git init
 git status
 git add <file-name>
 git commit -m"message"
+git restore <file-name>
+git restore --staged <file-name></file-name>
+
+echo "# git-learn-first" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shiva-srivastav/git-learn-first.git
+git push -u origin main
